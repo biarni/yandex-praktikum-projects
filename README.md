@@ -1,5 +1,13 @@
 # Data Analytics and Data Science Projects
 
+During 9-month intensive hands-on studying program made key projects with self Data Preprocessing real-world datasets in the following areas:
+
+- **Exploratory Data Analysis (EDA), Statistical Analysis and Data Visualization** using Python packages **Pandas, Matplotlib, Numpy, Seaborn, Scipy, Statsmodels** (e.g. finding parameters affecting the value of real estate in Saint-Petersburg, the bank borrowers solvency);
+- **Machine Learning** using Python packages **Sklearn, CatBoost, LightGBM** (e.g. predicting the concentration of gold during refining process, bank customers outcome, taxi order forecasting);
+- **Deep Learning** using Python packages **TensorFlow, Keras, spaCy, NLTK** (e.g. finding customer’s age by photo, finding toxic comments).
+
+Final project availiable in English (see link below).
+
 Этот репозитроий предназначен для проектов, выполненных во время в обучения в Яндекс.Практикум на 9-месячном интенсивнойм практическом курсе профессиональной подготовки по специальности Data Science. 
 
 Проекты находятся в трех основных областях:
@@ -7,12 +15,21 @@
 - **Машинное обучение** с использованием библиотек Python **Sklearn, CatBoost, LightGBM** (например, выпускной проект - анализ и предсказание склонности клиента к уходу из телеком-компании; предсказание концентрации золота в процессе обогащения; прогноз заказов такси в следующий час);
 - **Deep Learning** с использованием библиотек Python **TensorFlow, Keras, spaCy, NLTK** (например, определение возраста покупателя по фотографии; определение токсичных комментариев).
 
-## [Определение вероятности ухода клиентов из телеком компании и максимизация выручки](https://github.com/biarni/yandex-praktikum-projects/tree/main/00_FINAL_telecom_churn_predict_russian) 
+## [Определение вероятности ухода клиентов из телеком компании и максимизация выручки / Telecom customer's churn prediction](https://github.com/biarni/yandex-praktikum-projects/tree/main/00_FINAL_telecom_churn_predict_russian) 
+
+**Project goals:**
+1. Conduct data analysis and develop a machine learning model to identify customers who are inclined to leave the company in the near future (classification task), which will allow them to offer special conditions and avoid a drop in the customer base, revenue and profit of the company.
+2. Offer a mechanism for calculating the impact of offering discounts to specific customers, whose exit probabilities were predicted by the model, on the company's revenue in order to maximize it.
+3. Make a portrait of a client prone to leaving for further marketing and product analysis. Test hypotheses with statistical tests.
+
+**1. Tools used:** Matplotlib, NumPy, Pandas, Python, SciPy, Scikit-learn, CatBoost.
+
+**2. Actions/Areas:** data processing, gaps, grouping, sorting, exploratory data analysis, descriptive statistics, statistical hypothesis testing, machine learning, classification threshold adjustment to maximize revenue.
 
 **Цели проекта:**  
 1. Провести анализ данных и разработать модель машинного обучения для определения клиентов, склонных уйти из компании в ближайшее время (задача классификации), что позволит предложить ему специальные условия и избежать падения клиентской базы, выручки и прибыли компании.
 2. Предложить механизм расчета влияния предложения скидок конкретным клиентам, вероятности ухода которых предсказала модель, на выручку компании с целью ее максимизации.
-3. Составить портрет клиента, склонного к уходу, для дальнейшего маркетингового и продуктового анализа.
+3. Составить портрет клиента, склонного к уходу, для дальнейшего маркетингового и продуктового анализа. Провести проверку гипотез статистическими тестами.
 
 **1. Использованные инструменты:** Matplotlib, NumPy, Pandas, Python, SciPy, Scikit-learn, CatBoost. 	
 
